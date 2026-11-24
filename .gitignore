@@ -1,0 +1,25 @@
+@"
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Python Virtual Environment & Cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Frontend Dependencies & Build Output
+node_modules/
+easymail-frontend/node_modules/
+easymail-frontend/dist/
+dist/
+
+# Local Databases, Logs & OS Files
+*.db
+*.sqlite3
+*.log
+.DS_Store
+Thumbs.db
+"@ | Set-Content -Path .gitignore -Encoding UTF8
