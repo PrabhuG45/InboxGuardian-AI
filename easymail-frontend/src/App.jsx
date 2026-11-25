@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { 
   fetchInbox, 
   analyzeEmailThreat, 
@@ -155,8 +155,8 @@ export default function App() {
         sender: 'security-alert@tempmail-verify.com',
         recipients: ['prabhu@example.com'],
         subject: 'URGENT SECURITY ACTION REQUIRED: VERIFY YOUR ACCOUNT',
-        body_text: 'CRITICAL NOTICE:\n\nUnauthorized activity was detected from an unknown IP address on your EasyMail account. You must verify your credentials immediately to avoid immediate suspension.\n\nClick here to verify: http://bank-verify-login.com/auth/login\n\nIf you do not perform this action within 2 hours, your access will be permanently revoked.',
-        snippet: 'CRITICAL NOTICE: Unauthorized activity was detected on your EasyMail account. Click http://bank-verify-login.com...',
+        body_text: 'CRITICAL NOTICE:\n\nUnauthorized activity was detected from an unknown IP address on your Inbox Guardian AI account. You must verify your credentials immediately to avoid immediate suspension.\n\nClick here to verify: http://bank-verify-login.com/auth/login\n\nIf you do not perform this action within 2 hours, your access will be permanently revoked.',
+        snippet: 'CRITICAL NOTICE: Unauthorized activity was detected on your Inbox Guardian AI account. Click http://bank-verify-login.com...',
         date: '09:15 AM',
         labels: ['INBOX', 'UNREAD'],
       },
@@ -245,7 +245,7 @@ export default function App() {
           ],
           action_items: [
             'Do NOT click any links in this message.',
-            'Flag and quarantine message in EasyMail token vault.'
+            'Flag and quarantine message in Inbox Guardian AI token vault.'
           ],
         });
       } else {
@@ -438,7 +438,7 @@ export default function App() {
           </div>
 
           <div className="space-y-2">
-            <h1 className="text-2xl font-bold text-slate-900 tracking-tight">Welcome to EasyMail</h1>
+            <h1 className="text-2xl font-bold text-slate-900 tracking-tight">Welcome to Inbox Guardian AI</h1>
             <p className="text-slate-500 text-sm leading-relaxed">
               Sign in with Google to securely access your inbox and AI email tools.
             </p>
@@ -476,7 +476,7 @@ export default function App() {
           <div className="w-9 h-9 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-sm">
             <Mail className="w-5 h-5" />
           </div>
-          <span className="text-lg font-bold text-slate-900 tracking-tight">EasyMail</span>
+          <span className="text-lg font-bold text-slate-900 tracking-tight">Inbox Guardian AI</span>
         </div>
 
         <div className="flex-1 max-w-md mx-6 relative">

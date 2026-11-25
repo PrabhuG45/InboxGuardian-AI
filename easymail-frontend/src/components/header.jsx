@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { Mail, Search, RefreshCw, ShieldCheck } from 'lucide-react';
 
 export default function Header({ userEmail, searchQuery, setSearchQuery, onRefresh, isLoading }) {
@@ -9,7 +9,7 @@ export default function Header({ userEmail, searchQuery, setSearchQuery, onRefre
         <div className="w-9 h-9 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-sm">
           <Mail className="w-5 h-5" />
         </div>
-        <span className="text-lg font-bold text-slate-900 tracking-tight">EasyMail</span>
+        <span className="text-lg font-bold text-slate-900 tracking-tight">Inbox Guardian AI</span>
       </div>
 
       {/* Search Input Bar */}
